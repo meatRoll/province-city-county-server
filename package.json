@@ -1,6 +1,6 @@
 ﻿{
   "name": "province-city-county-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "配合mongodb数据库使用的快速启动服务器插件（用于创建省市县三级后台接口）",
   "main": "server.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "author": "meatroll",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.4",
     "mongodb": "^2.2.31"
   },
   "repository": {
