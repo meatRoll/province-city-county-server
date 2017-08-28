@@ -1,0 +1,16 @@
+{
+	"serverIP": "0.0.0.0",
+	"serverPort": 80,
+	"interfaces":{
+		"province": "/province",
+		"city": "/city",
+		"county": "/county"
+	},
+	"callbackFuncName": "callback",
+	"mongodbUrl": "mongodb://localhost:27017/database",
+	"colections": {
+		"province": "Province",
+		"city": "City",
+		"county": "County"
+	}
+}
