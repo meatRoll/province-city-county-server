@@ -20,6 +20,19 @@
   * province——省
   * city——市
   * county——县
-##### 2. 使用`npm run server`指令启动服务器，如果看到控制台中成功输出`Server Start.`，则证明服务器正常启动。 
+##### 2. 在本项目文件夹中使用`npm run server`指令启动服务器，如果看到控制台中成功输出`Server Start.`，则证明服务器正常启动。 
+
+##### 3. 服务器接口说明：
+
+> 以下接口名称皆可自定义，参数callback键名也可自定义
+
+* province接口：
+  * callback——回调函数名
+* city接口：
+  * provinceCode——省级行政区代号
+  * callback——回调函数名
+* county接口：
+  * cityCode——地级行政区代号
+  * callback——回调函数名
 
 ![](./images/meatroll.png)
