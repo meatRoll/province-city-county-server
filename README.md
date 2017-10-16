@@ -1,8 +1,11 @@
 > 简单介绍
 
 * 一个炒鸡简单的快速搭建省市县三级联动node服务器的小插件
+
 * 此插件采用JSONP接口，支持跨域请求
+
 * 使用本插件需要配合相关数据库使用，数据库生成可使用`npm i province-city-county-linkage_mangodb`或者`git clone https://github.com/meatRoll/province-city-county-linkage_mangodb.git `下载数据库生成插件使用
+> 注意：使用前请使用`npm install`安装依赖
 
 > 使用步骤
 
