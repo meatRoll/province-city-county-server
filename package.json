@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "province-city-county-server",
   "version": "1.0.3",
   "description": "配合mongodb数据库使用的快速启动服务器插件（用于创建省市县三级后台接口）",
@@ -7,11 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node server"
   },
-  "keywords": ["province", "city", "county", "mangodb", "server"],
+  "keywords": [
+    "province",
+    "city",
+    "county",
+    "mangodb",
+    "server"
+  ],
   "author": "meatroll",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.3",
     "express": "^4.15.4",
+    "express-session": "^1.15.6",
     "mongodb": "^2.2.31"
   },
   "repository": {

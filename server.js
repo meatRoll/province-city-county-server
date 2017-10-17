@@ -2,6 +2,8 @@
 // 导包
 const express = require('express');
 const findMethod = require('./mongodbMethod.js');
+const session = require('express-session');
+const cookieParser = require('cookie-parser');
 
 // 解析设置文件
 const config = require('./server_config.json');
@@ -9,6 +11,13 @@ const callbackFuncName = config.callbackFuncName;
 
 // 生成app
 const app = express();
+
+
+// 使用session
+app.use(cookieParser());
+app.use(session({
+	secret: 'mine'
+}));
 
 // 采用jsonp处理跨域
 app.get(config.interfaces.province, (req, res) => {
