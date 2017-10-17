@@ -12,7 +12,6 @@ const callbackFuncName = config.callbackFuncName;
 // 生成app
 const app = express();
 
-
 // 使用session
 app.use(cookieParser());
 app.use(session({
